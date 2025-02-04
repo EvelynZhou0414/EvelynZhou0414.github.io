@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "evelynzhou0414-github-io"
+version = "0.1.0"
+description = ""
+authors = ["EvelynZhou0414 <yang123@bu.edu>"]
+readme = "README.md"
+packages = [{include = "evelynzhou0414"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
